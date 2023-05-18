@@ -1,7 +1,7 @@
 const fs = require(`fs`);
 const express = require(`express`);
 const path = require(`path`);
-const notes = require(`./Develop/db/db.json`);
+const notes = require(`./db/db.json`);
 const uuid = require('uuid');
 const { DH_CHECK_P_NOT_SAFE_PRIME } = require("constants");
 
@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(`public`));
 
 app.get(`/notes`, (req, res) => {
-    res.sendFile(path.join(__dirname, `/db/db.jso`))
+    res.sendFile(path.join(__dirname, `/db/db.json`))
 });
 
 //add note to db file
