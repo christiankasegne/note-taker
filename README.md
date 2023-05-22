@@ -14,12 +14,11 @@ This app allows you to take notes
 
 ## Installation
 
-visit https://ck-note-taker.herokuapp.com no instillation required.
+N/A
 
 ## Usage
 
-![alt text](assets/images/screenshot.png)
-
+visit https://ck-note-taker.herokuapp.com take note
 
 ## License
 
