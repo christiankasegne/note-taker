@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-visit https://ck-note-taker.herokuapp.com take note
+you can take your notes by visit https://ck-note-taker.herokuapp.com 
 
 ## License
 
